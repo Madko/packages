@@ -66,7 +66,9 @@ cd ../../
 
 # sunstone
 cd src/sunstone/public
-npm install -g bower grunt grunt-cli
+npm install -g bower
+npm install -g grunt 
+npm install -g grunt-cli
 npm install
 bower install --allow-root --config.interactive=false
 grunt sass
